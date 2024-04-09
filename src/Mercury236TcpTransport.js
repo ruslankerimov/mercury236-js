@@ -24,8 +24,6 @@ class Mercury236TcpTransport {
         });
 
         this.socket.setTimeout(1000);
-
-        this.open();
     }
 
     async open() {
